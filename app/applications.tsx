@@ -21,7 +21,11 @@
 //     Spacing,
 // } from "../constants/kaamsetuTheme";
 
+<<<<<<< Updated upstream
 // const API_URL = "http://172.17.61.86:8030";
+=======
+// const API_URL = "http://172.17.3.225:8030";
+>>>>>>> Stashed changes
 
 // function StarRatingInput({
 //   rating,
@@ -878,21 +882,25 @@ import AsyncStorage from "@react-native-async-storage/async-storage";
 import { useLocalSearchParams, useRouter } from "expo-router";
 import { useEffect, useMemo, useState } from "react";
 import {
-    ActivityIndicator,
-    Alert,
-    FlatList,
-    Modal,
-    SafeAreaView,
-    StatusBar,
-    StyleSheet,
-    Text,
-    TextInput,
-    TouchableOpacity,
-    View,
+  ActivityIndicator,
+  Alert,
+  FlatList,
+  Modal,
+  SafeAreaView,
+  StatusBar,
+  StyleSheet,
+  Text,
+  TextInput,
+  TouchableOpacity,
+  View,
 } from "react-native";
 import { KColors as Colors, Spacing } from "../constants/kaamsetuTheme";
 
+<<<<<<< Updated upstream
 const API_URL = "http://172.17.61.86:8030";
+=======
+const API_URL = "http://172.17.3.225:8030";
+>>>>>>> Stashed changes
 
 // ─── Avatar initials helper ───────────────────────────────────────────────────
 const AVATAR_COLORS = [

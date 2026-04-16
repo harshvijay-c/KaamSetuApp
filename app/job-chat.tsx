@@ -24,7 +24,11 @@
 //     Spacing,
 // } from "../constants/kaamsetuTheme";
 
+<<<<<<< Updated upstream
 // const API_URL = "http://172.17.61.86:8030";
+=======
+// const API_URL = "http://172.17.3.225:8030";
+>>>>>>> Stashed changes
 
 // type RawSender =
 //   | string
@@ -473,19 +477,19 @@ import { LinearGradient } from "expo-linear-gradient";
 import { useLocalSearchParams, useRouter } from "expo-router";
 import React, { useEffect, useMemo, useState } from "react";
 import {
-    ActivityIndicator,
-    Alert,
-    Dimensions,
-    FlatList,
-    Keyboard,
-    KeyboardAvoidingView,
-    Platform,
-    StatusBar,
-    StyleSheet,
-    Text,
-    TextInput,
-    TouchableOpacity,
-    View,
+  ActivityIndicator,
+  Alert,
+  Dimensions,
+  FlatList,
+  Keyboard,
+  KeyboardAvoidingView,
+  Platform,
+  StatusBar,
+  StyleSheet,
+  Text,
+  TextInput,
+  TouchableOpacity,
+  View,
 } from "react-native";
 import { SafeAreaView } from "react-native-safe-area-context";
 import { API_BASE } from "../constants/Config";
